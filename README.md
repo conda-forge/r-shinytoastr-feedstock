@@ -1,11 +1,11 @@
-About r-shinytoastr
-===================
+About r-shinytoastr-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinytoastr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mangothecat/shinytoastr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinytoastr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Browser notifications in 'Shiny' apps, using 'toastr': <https://github.com/CodeSeven/toastr#readme>.
 
