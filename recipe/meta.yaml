@@ -1,4 +1,4 @@
-{% set version = '2.1.1' %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinytoastr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinytoastr/shinytoastr_{{ version }}.tar.gz
-  sha256: 9618b16f6247e60ac9431d8c344f2469202d72eb7c7aaf64a6abf3e01ef94206
+  sha256: df903fb69a747f806a20396f63a0686b61b6bc410be0789235985a9594278efd
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
